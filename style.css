@@ -1,12 +1,12 @@
 body, html {
   height: 100%;
-  background: black;    
+  background: black;
 }
 .text{
   color: #d5dcf1;
   font-family: 'Permanent Marker', cursive;
   font-style: italic;
-  font-size: 1.1em;
+  font-size: 1.2vw;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   padding-left: 10%;
 }
@@ -24,9 +24,9 @@ padding: 0;
 .col-md-12{
   padding: 0;
 }
-h1{
+.about-me{
   font-weight: 100;
-  font-size: 5em;
+  font-size: 6vw;
   background: linear-gradient( #5d21e9 0%, #6738e9 35%, white 49%, black 50%, #630680 60%, #eb6fe0 68%,#ffb6f9 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -156,4 +156,17 @@ margin: 0 auto;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.picture-background{
+  background-color: black;
+}
+
+.picture-margin{
+  margin-top: 7vh;
+}
+
+.no-margin{
+  margin-left: 0;
+  margin-right: 0;
 }
