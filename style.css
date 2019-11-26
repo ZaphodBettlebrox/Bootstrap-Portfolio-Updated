@@ -196,14 +196,14 @@ margin: 0 auto;
   .links-text{
     font-size: 5vw;
   }
-
   .text-pink{
     font-size: 3vw;
   }
   .contact-text{
     font-size: 3vw;
   }
-  /*
+  
+
   .about-me{
     font-size: 10vw;
   }
@@ -215,7 +215,8 @@ margin: 0 auto;
     padding-right: 7vw;
     font-size: 2.3vw;
   }
-} */
+}
+
 @media only screen and (max-width: 470px){
   .text{
     padding-right: 9vw;
