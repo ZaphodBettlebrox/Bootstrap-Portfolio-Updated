@@ -188,6 +188,9 @@ margin: 0 auto;
 .send-footer-margin{
   height: 10vh;
 }
+.contact-form-size{
+  width: 100%;
+}
 
 
 @media only screen and (max-width: 950px){
@@ -223,6 +226,9 @@ margin: 0 auto;
     padding-right: 7vw;
     font-size: 2.3vw;
   }
+  .contact-form-size{
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 470px){
@@ -230,4 +236,8 @@ margin: 0 auto;
     padding-right: 9vw;
     font-size: 2vh;
   }
+  .contact-form-size{
+    width: 80%;
+  }
+
 }
