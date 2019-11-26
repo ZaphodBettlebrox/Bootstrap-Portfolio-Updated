@@ -180,13 +180,13 @@ margin: 0 auto;
   margin-left: 0;
   margin-right: 0;
 }
-/* @media only screen and (max-width: 950px){
+@media only screen and (max-width: 950px){
   .text{
     padding-right: 9vw;
     font-size: 2vh;
   }
 }
-@media only screen and (max-width: 767px){
+/* @media only screen and (max-width: 767px){
   .box{
     display: none;
   }
