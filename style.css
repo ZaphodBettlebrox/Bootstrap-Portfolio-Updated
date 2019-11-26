@@ -186,11 +186,11 @@ margin: 0 auto;
     font-size: 2vh;
   }
 }
-/* @media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px){
   .box{
     display: none;
   }
-  .Aidan-Willett{
+  /* .Aidan-Willett{
     font-size: 6vw;
   }
   .links-text{
