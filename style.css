@@ -9,8 +9,6 @@ html {
   font-style: italic;
   font-size: 1.2vw;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  padding-left: 10%;
-  padding-right: 5%;
   padding-bottom: 30vh;
 }
 .container-fluid,
@@ -110,11 +108,12 @@ html {
 
 .portrate {
   float: right;
-  position: absolute;
-  right: 10%;
-  bottom: 65vh;
-  height: 70%;
-  z-index: -1;
+  position: fixed;
+  margin-right: 5%;
+  height: 80%;
+  right: -2vw;
+  top: 37vh;
+  z-index: +10;
 }
 
 .bg-blue {
@@ -216,13 +215,22 @@ html {
 .forms {
   margin: auto;
 }
+.contactbody{
+  width: 100vw;
+}
+.contactbottom{
+  margin-bottom: 20vh;
+}
 
 @media only screen and (max-width: 950px) {
   .text {
-    padding-right: 9vw;
     font-size: 2vh;
   }
-  .contact-form {
+  .portrate {
+    display: none;
+  }
+  .hidestuff{
+    display: none;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -244,9 +252,7 @@ html {
   .about-me {
     font-size: 10vw;
   }
-  .portrate {
-    display: none;
-  }
+  
   .text {
     padding-left: 7vw;
     padding-right: 7vw;
